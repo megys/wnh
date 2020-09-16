@@ -12,39 +12,71 @@
 
   body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
     text-align: center;
-    background: powderblue;
+    background: #8BD7D2;
   }
 
   header {
-    font-size: 35px;
+    padding: 20px;
     color: white;
+    background: #FF6B6B;
   }
 
   footer {
     text-align: left;
+    padding: 20px;
+    color: white;
+    background: #251605;
   }
 
-  section {}
+  section {
+
+  }
 
   div {
     padding: 20px;
     margin: auto;
-    width: 550px;
-    background: white;
+    margin-bottom: 10px;
   }
 
-  h1 {}
-
+  h2 {
+    line-height: 1.5;
+  }
 
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-weight: bold;
   }
 
+  /* link styles */
+  /* unvisited link */
+a:link {
+  color: #ff6b6b;
+}
+
+/* visited link */
+a:visited {
+  color: #ff6b6b;
+}
+
+/* mouse over link */
+a:hover {
+  color: #2E6171;
+}
+
+
   /* helper classes */
-  .header {}
+  .links {
+    line-height: 0.5;
+    background: white;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
 </style>
 
 <body>
@@ -54,58 +86,56 @@
     <h3>AFFORDABLE HOUSING MASTER LIST</h3>
   </header>
 
-  <div>
-    <h2>Keywords</h2>
-    <p>
-      open the most recent pdf and search for these keywords with ctrl + F
-    <ul>
-      <li>affordable housing</li>
-      <li>permanent supportive housing</li>
-      <li>homeless</li>
-      <li>homelessness</li>
-    </ul>
-    </p>
-  </div>
+  <section>
+    <div>
+      <h2>Keywords</h2>
+      <p>open the most recent pdf and search for these keywords with ctrl + F</p>
+      <ul>
+        <li>affordable housing</li>
+        <li>permanent supportive housing</li>
+        <li>homeless</li>
+        <li>homelessness</li>
+      </ul>
+    </div>
 
-  <div>
-    <h2>Links to Meeting Agendas</h2>
-
-    <h4><a href="https://avcity.org/129/Agendas-Minutes" target="_blank">City of Aliso Viejo</a></h4>
-    <h4><a href="http://www.anaheim.net/2527/Agendas" target="_blank">City of Anaheim</a></h4>
-    <h4><a href="https://www.ci.brea.ca.us/509/Meeting-Agendas-Minutes" target="_blank">City of Brea</a></h4>
-    <h4><a href="http://www.buenapark.com/city-departments/city-council/council-agenda" target="_blank">City of Buena Park</a></h4>
-    <h4><a href="https://www.costamesaca.gov/hot-topics/current-agendas" target="_blank">City of Costa Mesa</a></h4>
-    <h4><a href="https://www.cypressca.org/government/city-council/city-council-meetings" target="_blank">City of Cypress</a></h4>
-    <h4><a href="https://www.danapoint.org/department/city-council/meetings-agendas-minutes" target="_blank">City of Dana Point</a></h4>
-    <h4><a href="https://www.fountainvalley.org/AgendaCenter" target="_blank">City of Fountain Valley</a></h4>
-    <h4><a href="https://fullerton.legistar.com/Calendar.aspx" target="_blank">City of Fullerton</a></h4>
-    <h4><a href="https://ggcity.org/cgi-bin/city_council/videos_and_agendas.cgi" target="_blank">City of Garden Grove</a></h4>
-    <h4><a href="https://huntingtonbeach.legistar.com/Calendar.aspx">City of Huntington Beach</a></h4>
-    <h4><a href="http://legacy.cityofirvine.org/cityhall/citymanager/pio/ictv/player/default.asp?ID=512" target="_blank">City of Irvine</a></h4>
-    <h4><a href="https://destinyhosted.com/agenda_publish.cfm?id=52422" target="_blank">City of La Habra</a></h4>
-    <h4><a href="https://www.cityoflapalma.org/Archive.aspx?AMID=165" target="_blank">City of La Palma</a></h4>
-    <h4><a href="http://www.lagunabeachcity.net/cityhall/citygov/cityclerk/mam.htm" target="_blank">City of Laguna Beach</a></h4>
-    <h4><a href="http://lagunahillsca.iqm2.com/Citizens/Default.aspx" target="_blank">City of Laguna Hills</a></h4>
-    <h4><a href="https://www.cityoflagunaniguel.org/agendacenter" target="_blank">City of Laguna Niguel</a></h4>
-    <h4><a href="https://lakeforestca.gov/621/Meeting-Agendas-and-Minutes" target="_blank">City of Laguna Woods</a></h4>
-    <h4><a href="https://lakeforestca.gov/129/Agendas" target="_blank">City of Lake Forest</a></h4>
-    <h4><a href="https://cityoflosalamitos.org/your-government/city-council/agendas-and-minutes/" target="_blank">City of Los Alamitos</a></h4>
-    <h4><a href="http://missionviejo.granicus.com/ViewPublisher.php?view_id=12" target="_blank">City of Mission Viejo</a></h4>
-    <h4><a href="https://www.newportbeachca.gov/government/open-government/agendas-minutes" target="_blank">City of Newport Beach</a></h4>
-    <h4><a href="https://www.cityoforange.org/183/City-Council" target="_blank">City of Orange</a></h4>
-    <h4><a href="http://www.placentia.org/289/Committees-Commissions-and-Agencies" target="_blank">City of Placentia</a></h4>
-    <h4><a href="http://www.cityofrsm.org/129/Agendas-Minutes" target="_blank">City of Rancho Santa Margarita</a></h4>
-    <h4><a href="https://www.san-clemente.org/government/city-council/agendas" target="_blank">City of San Clemente</a></h4>
-    <h4><a href="https://sanjuancapistrano.org/Important-Links/City-Council-Archived-Meetings#" target="_blank">City of San Juan Capistrano</a></h4>
-    <h4><a href="https://www.santa-ana.org/cc/city-meetings" target="_blank">City of Santa Ana</a></h4>
-    <h4><a href="https://www.sealbeachca.gov/Government/Agendas-Notices-Meeting-Videos" target="_blank">City of Seal Beach</a></h4>
-    <h4><a href="https://www.ci.stanton.ca.us/Council-and-Commissions/Agendas-and-Minutes?folderId=78&view=gridview&pageSize=10" target="_blank">City of Stanton</a></h4>
-    <h4><a href="https://www.tustinca.org/282/Meetings-Agendas" target="_blank">City of Tustin</a></h4>
-    <h4><a href="http://villapark.org/Council-and-Committees/Council-Agenda-and-Minutes?folderId=780&view=gridview&pageSize=10" target="_blank">City of Villa Park</a></h4>
-    <h4><a href="https://westminsterca.granicus.com/ViewPublisher.php?view_id=2" target="_blank">City of Westminster</a></h4>
-    <h4><a href="https://www.yorbalindaca.gov/197/Council-Meeting-Agendas-Minutes" target="_blank">City of Yorba Linda</a></h4>
-  </div>
-
+    <div class="links">
+      <h2>Links to Meeting Agendas</h2>
+      <h4><a href="https://avcity.org/129/Agendas-Minutes" target="_blank">City of Aliso Viejo</a></h4>
+      <h4><a href="http://www.anaheim.net/2527/Agendas" target="_blank">City of Anaheim</a></h4>
+      <h4><a href="https://www.ci.brea.ca.us/509/Meeting-Agendas-Minutes" target="_blank">City of Brea</a></h4>
+      <h4><a href="http://www.buenapark.com/city-departments/city-council/council-agenda" target="_blank">City of Buena Park</a></h4>
+      <h4><a href="https://www.costamesaca.gov/hot-topics/current-agendas" target="_blank">City of Costa Mesa</a></h4>
+      <h4><a href="https://www.cypressca.org/government/city-council/city-council-meetings" target="_blank">City of Cypress</a></h4>
+      <h4><a href="https://www.danapoint.org/department/city-council/meetings-agendas-minutes" target="_blank">City of Dana Point</a></h4>
+      <h4><a href="https://www.fountainvalley.org/AgendaCenter" target="_blank">City of Fountain Valley</a></h4>
+      <h4><a href="https://fullerton.legistar.com/Calendar.aspx" target="_blank">City of Fullerton</a></h4>
+      <h4><a href="https://ggcity.org/cgi-bin/city_council/videos_and_agendas.cgi" target="_blank">City of Garden Grove</a></h4>
+      <h4><a href="https://huntingtonbeach.legistar.com/Calendar.aspx">City of Huntington Beach</a></h4>
+      <h4><a href="http://legacy.cityofirvine.org/cityhall/citymanager/pio/ictv/player/default.asp?ID=512" target="_blank">City of Irvine</a></h4>
+      <h4><a href="https://destinyhosted.com/agenda_publish.cfm?id=52422" target="_blank">City of La Habra</a></h4>
+      <h4><a href="https://www.cityoflapalma.org/Archive.aspx?AMID=165" target="_blank">City of La Palma</a></h4>
+      <h4><a href="http://www.lagunabeachcity.net/cityhall/citygov/cityclerk/mam.htm" target="_blank">City of Laguna Beach</a></h4>
+      <h4><a href="http://lagunahillsca.iqm2.com/Citizens/Default.aspx" target="_blank">City of Laguna Hills</a></h4>
+      <h4><a href="https://www.cityoflagunaniguel.org/agendacenter" target="_blank">City of Laguna Niguel</a></h4>
+      <h4><a href="https://lakeforestca.gov/621/Meeting-Agendas-and-Minutes" target="_blank">City of Laguna Woods</a></h4>
+      <h4><a href="https://lakeforestca.gov/129/Agendas" target="_blank">City of Lake Forest</a></h4>
+      <h4><a href="https://cityoflosalamitos.org/your-government/city-council/agendas-and-minutes/" target="_blank">City of Los Alamitos</a></h4>
+      <h4><a href="http://missionviejo.granicus.com/ViewPublisher.php?view_id=12" target="_blank">City of Mission Viejo</a></h4>
+      <h4><a href="https://www.newportbeachca.gov/government/open-government/agendas-minutes" target="_blank">City of Newport Beach</a></h4>
+      <h4><a href="https://www.cityoforange.org/183/City-Council" target="_blank">City of Orange</a></h4>
+      <h4><a href="http://www.placentia.org/289/Committees-Commissions-and-Agencies" target="_blank">City of Placentia</a></h4>
+      <h4><a href="http://www.cityofrsm.org/129/Agendas-Minutes" target="_blank">City of Rancho Santa Margarita</a></h4>
+      <h4><a href="https://www.san-clemente.org/government/city-council/agendas" target="_blank">City of San Clemente</a></h4>
+      <h4><a href="https://sanjuancapistrano.org/Important-Links/City-Council-Archived-Meetings#" target="_blank">City of San Juan Capistrano</a></h4>
+      <h4><a href="https://www.santa-ana.org/cc/city-meetings" target="_blank">City of Santa Ana</a></h4>
+      <h4><a href="https://www.sealbeachca.gov/Government/Agendas-Notices-Meeting-Videos" target="_blank">City of Seal Beach</a></h4>
+      <h4><a href="https://www.ci.stanton.ca.us/Council-and-Commissions/Agendas-and-Minutes?folderId=78&view=gridview&pageSize=10" target="_blank">City of Stanton</a></h4>
+      <h4><a href="https://www.tustinca.org/282/Meetings-Agendas" target="_blank">City of Tustin</a></h4>
+      <h4><a href="http://villapark.org/Council-and-Committees/Council-Agenda-and-Minutes?folderId=780&view=gridview&pageSize=10" target="_blank">City of Villa Park</a></h4>
+      <h4><a href="https://westminsterca.granicus.com/ViewPublisher.php?view_id=2" target="_blank">City of Westminster</a></h4>
+      <h4><a href="https://www.yorbalindaca.gov/197/Council-Meeting-Agendas-Minutes" target="_blank">City of Yorba Linda</a></h4>
+    </div>
+  </section>
   <footer>
     <p>
       if there are any problems with the webpage, please email meganyschmid@gmail.com
